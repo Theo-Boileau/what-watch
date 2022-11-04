@@ -1,0 +1,11 @@
+{
+  "name": "What-Watch",
+  "short_name": "W-W",
+  "display": "standalone",
+  "background_color": "black",
+  "description": "Helps you to get all movies by name",
+  "dir": "auto",
+  "lang": "fr",
+  "orientation": "any",
+  "prefer_related_applications": "false"
+}

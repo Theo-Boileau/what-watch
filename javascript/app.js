@@ -1,8 +1,20 @@
+//variables
 let inputSearch = $('#inputSearch');
 let apiUrl = 'https://api.themoviedb.org/3/';
 let apiKey = 'dc6fb4466e2bfe9d02c6c3154fa4f8d6';
 
+//service worker functions
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('serviceWorker.js', { scope: '/what-watch/' }).then(function(reg) {
+        // registration worked
+        console.log('Registration succeeded. Scope is ' + reg.scope);
+    }).catch(function(error) {
+        // registration failed
+        console.log('Registration failed with ' + error);
+    });
+};
 
+// functions
 $('#btnSearch').on('click', function () {
     let div = document.getElementById('movieList');
 
