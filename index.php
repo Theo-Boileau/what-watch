@@ -6,11 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- favIcon -->
-    <link rel="icon" href="https://i.pinimg.com/474x/61/2c/b2/612cb2fa264f8cfa85f0cc7b8c9af03d.jpg" />
+    <link rel="icon" href="assets/icons/w.png" />
     <title>What-Watch</title>
 
     <!-- manifest -->
-    <link rel="manifest" href="./manifest.json">
+    <link rel="manifest" href="manifest.json">
 
     <!-- BOOTSTRAP -->
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">

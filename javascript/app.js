@@ -5,9 +5,9 @@ let apiKey = 'dc6fb4466e2bfe9d02c6c3154fa4f8d6';
 
 //service worker functions
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('serviceWorker.js', { scope: '/what-watch/' }).then(function(reg) {
+    navigator.serviceWorker.register('serviceWorker.js').then(function(reg) {
         // registration worked
-        console.log('Registration succeeded. Scope is ' + reg.scope);
+        console.log('Registration succeeded.');
     }).catch(function(error) {
         // registration failed
         console.log('Registration failed with ' + error);
